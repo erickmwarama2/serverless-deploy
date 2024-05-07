@@ -1,0 +1,14 @@
+service: hello-serverless
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-2
+
+
+functions:
+  hello:
+    handler: handler.hello
+
