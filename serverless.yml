@@ -8,6 +8,13 @@ provider:
   region: us-east-2
   memorySize: 128
   timeout: 3
+  vpc:
+    securityGroupIds:
+      - sg-03bf594a10a223041
+    subnetIds:
+      - subnet-0e6ba3872f339c472
+      - subnet-022b28471bc4d3718
+      - subnet-0bebe7a138b34f64d
 
 
 functions:
