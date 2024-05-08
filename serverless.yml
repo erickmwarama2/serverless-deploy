@@ -40,7 +40,7 @@ functions:
                   "num1": $inputRoot.input.operand1,
                   "num2": $inputRoot.input.operand2
                 }
-                >
+
           response:
             headers:
               Access-Control-Allow-Origin: "'*'"
@@ -50,7 +50,7 @@ functions:
               {
                 "result": $inputRoot
               }
-              >
+
   add:
     handler: add.add
     memorySize: 256
