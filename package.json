@@ -1,0 +1,23 @@
+{
+  "name": "hello-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmwarama2/serverless-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickmwarama2/serverless-deploy/issues"
+  },
+  "homepage": "https://github.com/erickmwarama2/serverless-deploy#readme",
+  "devDependencies": {
+    "serverless-offline": "^13.5.0"
+  }
+}
