@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports.add = async (event) => {
-    let {num1, num2} = event;
+    let {num1, num2} = JSON.parse(event.body);
 
   return {
     statusCode: 200,
